@@ -1,0 +1,2 @@
+Add article links to id="red-pill-list"
+
