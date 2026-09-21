@@ -1,6 +1,6 @@
 body
 {
-	max-width:1200px;
+	max-width:1100px;
 	margin:auto;
 	font-size:15px;
 	background:#FFFFFF;
@@ -53,44 +53,62 @@ a:hover
 
 #red-pill-list
 {
-	border:1px dashed #A3A3A3;
-	margin:2px 20px;
-	margin-right:100px;
-	padding:10px;
-	border-radius:5px;
+	margin:1px 4px;
+	padding:1px 4px;
 }
 
 #red-pill-list a
 {
-	display:block;
+	background:#DDDDDD;
+	width:190px;
+	border-bottom:none;
+	margin:3px;
+	float:left;
 }
 
-/* .short-article is the same as #red-pill-list,
-but it has no border and no "a display:block" */
+#red-pill-list a:hover
+{
+	background:#000;	/* same as a:hover */
+}
+
+/*
+	.short-article is the same as #red-pill-list,
+	they are embbed at the same level position,
+*/
 .short-article
 {
-	margin:2px 20px;
-	margin-right:100px;
-	padding:10px;
+	margin:1px 4px;
+	padding:1px 4px;
 }
 
 #mark-image
 {
-	max-width:320px;
+	width:320px;
 	float:left;
 }
 
 #content-right
 {
 	float:right;
-	margin:1px 10px;
-	padding:1px 10px;
-	max-width:840px;
+	margin:70px 10px 10px;
+	padding:8px 10px;
+	width:640px;	/* < body::1100px - mark-image::320px - borderWaste */
+	border:0px solid #DDDDDD;
+	border-radius:5px;
 }
 
 #backer
 {
 	margin-top:100px;
 	float:left;
+}
+
+#write-date
+{
+	margin:50px 5px;
+	padding:5px 20px;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	width:100px;
 }
 
